@@ -182,3 +182,153 @@ left: 50%;
   left: 50%;
 }
 
+/*bshop-benefit*/
+
+
+.bshop-benefit{
+  padding: 106px 0;
+  background: var(--color-light-grey);
+}
+
+.benefit-container {
+  padding: 0 100px;
+}    
+ 
+.benefit-conteiner-box {
+  width: 1124px;
+  height: 370px;
+  background-color: var(--color-white);
+  border: 1px solid #E8E9ED;
+  display: flex;
+  justify-content:space-between ;
+  align-items: flex-end;
+  margin-bottom: 37px;
+  border-radius: 5px;
+}   
+  
+.benefit-article {
+  box-sizing: content-box;
+  max-width: 415px;
+  margin: 90px 36px;
+}
+
+.benefit-article::after {
+  content: "";
+  width: 328px;
+  height: 4px;
+  background-color: #FB3B64;
+  display: block;
+  margin-top: 50px;
+}
+
+.benefit-article-second::after {
+  background-color: #08A6E4;
+}
+
+.benefit-article-third::after {
+  background-color: #55DFB4;
+}
+
+.benefit-title {
+  font-size: 36px;
+  font-weight: normal;
+  font-family: var(--font-raleway);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.benefit-image {
+  position: relative;
+}
+
+.benefit-image img {
+  position: relative;
+  z-index: 2;
+}
+
+.benefit-container-first .benefit-image img{
+  width: 386px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.benefit-container-first .benefit-image {
+  margin-right: 117px;
+  margin-bottom: 38px;
+}
+
+
+.benefit-container-first .benefit-image::before{
+  content: "";
+  width: 180px;
+  height: 180px;
+  background-color:var(--color-redish) ;
+  display: block;
+  border-radius: 40px;
+  position: absolute;
+  right: 0;
+  top: -40px;
+  transform: rotate(45deg);
+}
+
+.benefit-container-second {
+  flex-direction: row-reverse;
+  padding: 0 20px 0 70px;
+}
+
+.benefit-container-second .benefit-image::before {
+  content: "";
+  width: 320px;
+  height: 320px;
+  background-color:#07ACE6 ;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: -20px;
+}
+
+.benefit-container-second .benefit-image img {
+  width: 426px;
+  height: auto;
+}
+
+.benefit-container-second .benefit-text {
+  margin: 70px 0
+}
+
+.benefit-container-third {
+  display: flex;
+}
+
+.benefit-container-third > div {
+  margin-bottom: 0;
+}
+
+.container-third-el1 {
+  max-width: 620px;
+}
+
+.container-third-el1 .benefit-article {
+  max-width: none;
+  margin: 70px 35px;
+}
+
+
+.conteiner-third-el2 {
+  width: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-green);
+  border: none;
+  margin-left: 60px;
+}
+
+.conteiner-third-el2  img {
+  width: 295px;
+  height: auto;
+  margin-top: 55px;
+}
+
