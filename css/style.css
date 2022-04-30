@@ -109,3 +109,76 @@ body {
   padding: 22px 157px;
 }   
 
+/*bshop-statistic-section*/
+
+.bshop-statistic-section {
+  margin-top: 100px;
+}
+
+.statistic-header {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  font-family: var(--font-raleway);
+}
+
+.statistic-element {
+  max-width: 880px;
+  margin: 100px auto 120px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  text-align: center;
+  font-family: var(--font-raleway);
+}
+
+.statistic-logo {
+  position: relative;
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+}
+
+.statistic_img {
+  position: absolute;
+}
+
+.statistic-numb {
+font-size: 1.25rem;
+font-weight: 800;
+letter-spacing: 0.1875rem;
+margin-top: 13px;
+}
+
+.statistic-text {
+  color: var(--color-grey);
+  padding-top: 19px;
+}
+
+.statistic-el-1 .statistic-logo {
+  background-color: var(--color-redish); 
+}
+
+.statistic-el-2 .statistic-logo {
+  background-color:var(--color-primary) ; 
+}
+
+.statistic-el-3 .statistic-logo {
+  background-color:var(--color-green) ; 
+}
+
+.statistic-el-1 .statistic_img {
+  top: 0;
+left: 50%;
+}
+
+.statistic-el-2 .statistic_img {
+  top: 13px;
+  left:50%;
+}
+
+.statistic-el-3 .statistic_img {
+  top: 6px;
+  left: 50%;
+}
+
