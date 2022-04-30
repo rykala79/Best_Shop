@@ -23,6 +23,15 @@ body {
   margin: 0 auto;
 }
 
+.btn {
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  padding: 16px 65px;
+  border-radius: 35px;
+  border: none;
+}
+
 
 /*bshop header*/
 
@@ -330,5 +339,124 @@ left: 50%;
   width: 295px;
   height: auto;
   margin-top: 55px;
+}
+
+/*bshop-pricing*/
+
+.bshop-pricing {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-title {
+  font-size: 36px;
+  text-align: center;
+  font-family: var(--font-raleway);
+}
+
+.pricing-containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.pricing-container {
+  width: 370px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #000;
+  
+}
+
+.pricing-elements {
+  margin-top: 34px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.pricing-container-basic {
+  border: 1px solid var(--color-redish);
+  margin-bottom: 30px;
+}
+
+.pricing-container-professional {
+  border: 1px solid var(--color-primary);
+  margin-bottom: 30px;
+}
+
+.pricing-container-premium {
+  border: 1px solid var(--color-green);
+  margin-bottom: 30px;
+}
+
+.pricing-element-type {
+  font-size: 24px;
+  font-family: var(--font-raleway);
+  font-weight: 700;
+}
+
+.pricing-element-price {
+  font-size: 46px;
+  font-family: var(--font-open-sans);
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+pricing-element-limited {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 12px;
+  font-family: var(--font-raleway);
+  font-weight: bold;
+}
+
+.pricing-details {
+  text-align: center;
+}
+
+.pricing-detail {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.pricing-detail::before {
+content: "";
+width: 11px;
+height: 11px;
+display: inline-block;
+margin-right: 10px;
+background-image: url(../10_warsztat/assets/Checkmark-1.svg);
+}
+
+.pricing-detail-license-no::before {
+  background-image: url(./assets/Close.svg);
+}
+
+.pricing-detail-support-no::before {
+  background-image: url(./assets/Close.svg);
+}
+
+.btn {
+  position: relative;
+  bottom: -25px;
+  font-size: 13px;
+}
+
+.btn-basic {
+  background-color: var(--color-redish);
+}
+
+.btn-professional {
+  background-color:var(--color-primary);
+}
+
+.btn-premium {
+  background-color:var(--color-green);
 }
 
